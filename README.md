@@ -1,55 +1,131 @@
-# YouTube Content Strategy
+# Global YouTube Statistics Analysis
 
 ## Overview
-This project presents a comprehensive YouTube content strategy designed to help creators maximize engagement and revenue potential. By leveraging audience insights and market trends, creators can develop high-quality content that resonates with viewers while building sustainable monetization streams.
+This project analyzes global YouTube data to uncover trends, patterns, and insights about content creators, audience engagement, and revenue generation strategies. The analysis combines data cleaning, exploratory data analysis, and interactive visualization to provide actionable insights for YouTube creators and content strategists.
 
-## YouTube Content Strategy Components
+## 📁 Project Structure
 
-1. **Content Planning**: Develop a strategic content calendar aligned with audience interests and current trends in entertainment and music.
-2. **Audience Engagement**: Build community through interactive elements such as comments, polls, and live streaming sessions to gain deeper insights into viewer preferences.
-3. **SEO Optimization**: Enhance discoverability by incorporating relevant keywords in video titles, descriptions, and tags.
-4. **Analytics & Performance Tracking**: Monitor key metrics to refine content strategy and improve channel performance.
+### Data Files
+- **Global YouTube Statistics.csv** - Raw dataset containing comprehensive global YouTube channel statistics
+- **Global_YouTube_Statistics_Cleaned.csv** - Cleaned and processed dataset ready for analysis
 
-## Revenue Generation Strategies
+### Analysis & Processing
+- **limpieza_y_carga_datos.ipynb** - Jupyter Notebook containing:
+  - Data loading and exploration
+  - Data cleaning and preprocessing
+  - Handling missing values and outliers
+  - Feature engineering
+  - Exploratory Data Analysis (EDA)
+  - Statistical insights
 
-- **Ad Revenue**: Optimize videos for advertiser compatibility while maintaining content quality and viewer satisfaction.
-- **Sponsorships**: Establish partnerships with brands that align with your channel's values and audience demographics.
-- **Merchandising**: Create additional revenue streams by promoting branded merchandise directly to your audience.
-- **Channel Memberships**: Offer exclusive content and perks to paying subscribers for recurring revenue.
+### Visualization & Dashboarding
+- **youtube.pbix** - Power BI dashboard featuring:
+  - Interactive visualizations of key metrics
+  - Channel performance analysis
+  - Geographic distribution of creators
+  - Revenue and engagement trends
+  - Subscriber growth patterns
+  - Category-wise performance comparison
 
-## Optimal Markets for Content Launch
+## 🎯 Key Insights & Analysis
 
-- **United States**: Largest market with high engagement rates and premium advertising revenue.
-- **India**: Rapidly expanding market with significant growth in entertainment consumption.
-- **Brazil**: Vibrant audience with strong interest in music and entertainment content.
-- **Germany**: Established market with high-quality viewership and strong purchasing power.
+### Content Strategy Components
+1. **Content Planning**: Identify trending content types and optimal upload schedules based on global data
+2. **Audience Engagement**: Analyze engagement metrics across different regions and content categories
+3. **SEO Optimization**: Leverage keyword patterns and title strategies from top-performing channels
+4. **Performance Metrics**: Track key performance indicators (KPIs) including views, subscribers, and engagement rates
 
-## Content Recommendations
+### Top Markets for Content Creation
+- **United States** - Largest market with highest advertising revenue potential
+- **India** - Rapidly growing market with massive audience base
+- **Brazil** - Strong entertainment and music content consumption
+- **Germany** - High-value viewers with strong purchasing power
 
-- **Entertainment**: Create content around viral trends, reaction videos, and original storytelling formats that capture attention.
-- **Music**: Showcase trending songs, produce original music videos, and collaborate with local artists to increase visibility.
-- **Consistency**: Maintain a regular upload schedule to keep audiences engaged and improve algorithmic recommendation.
-- **Quality Production**: Invest in good equipment and editing to differentiate your content in a competitive landscape.
+### Revenue Generation Opportunities
+- **Ad Revenue** - Optimize for advertiser-friendly content and premium markets
+- **Sponsorships** - Partner with brands aligned to your channel's audience demographics
+- **Merchandising** - Create additional revenue through branded products
+- **Channel Memberships** - Offer exclusive perks to paying subscribers
 
-## Getting Started
+### Content Recommendations
+- **Entertainment** - Viral trends, reaction videos, and original storytelling formats
+- **Music** - Trending songs, original productions, and artist collaborations
+- **Consistency** - Regular upload schedules to maintain audience engagement
+- **Quality Production** - Professional equipment and editing to stand out
 
-To implement this strategy effectively:
-1. Define your target audience and niche
-2. Research trending topics and keywords in your category
-3. Create a content calendar for the next 3-6 months
-4. Establish KPIs (Key Performance Indicators) to measure success
-5. Engage regularly with your community
+## 🚀 Getting Started
 
-## Contact & Collaboration
+### Prerequisites
+- Python 3.x with Jupyter Notebook
+- Power BI Desktop (for viewing the dashboard)
+- Required Python libraries: pandas, numpy, matplotlib, seaborn, plotly
 
-For inquiries, partnerships, or collaboration opportunities:
+### Steps to Reproduce the Analysis
+1. Clone this repository
+2. Open `limpieza_y_carga_datos.ipynb` to review data cleaning and analysis
+3. Load `Global_YouTube_Statistics_Cleaned.csv` for your own analysis
+4. Open `youtube.pbix` in Power BI to explore interactive visualizations
+
+### Running the Jupyter Notebook
+```bash
+jupyter notebook limpieza_y_carga_datos.ipynb
+```
+
+## 📊 Dataset Description
+
+The Global YouTube Statistics dataset contains metrics for YouTube channels including:
+- Channel name and country
+- Subscriber count and view count
+- Video uploads and engagement metrics
+- Category and content type
+- Revenue and monetization data
+- Upload frequency and consistency
+
+## 💡 Recommendations for Using This Analysis
+
+1. **For Aspiring Creators**: Use market and category insights to identify your niche and competitive advantages
+2. **For Content Strategists**: Leverage the data patterns to optimize upload schedules and content types
+3. **For Brand Partners**: Identify high-performing creators in your target market for collaboration
+4. **For Analysts**: Extend this analysis with additional data sources for deeper insights
+
+## 📈 Dashboard Features (Power BI)
+
+- Real-time KPI cards showing top metrics
+- Geographic heatmaps of creator distribution
+- Category performance benchmarking
+- Subscriber and view growth trends
+- Revenue analysis by region and category
+- Channel comparison tools
+- Custom filters for deep-dive analysis
+
+## 🔍 Key Metrics Tracked
+
+- **Total Subscribers** - Cumulative subscriber base across analyzed channels
+- **Total Views** - Aggregate video views
+- **Engagement Rate** - Interaction metrics (likes, comments, shares)
+- **Upload Frequency** - Content production consistency
+- **Revenue Per Subscriber** - Monetization efficiency
+- **Geographic Concentration** - Market distribution
+
+## 📝 Data Processing Notes
+
+- Missing values handled through statistical imputation and removal where appropriate
+- Outliers identified and treated based on domain expertise
+- Currency conversions standardized to USD
+- Data normalized for cross-regional comparison
+
+## 🤝 Contact & Collaboration
+
+For inquiries, insights, or collaboration opportunities:
 
 - **Name**: Isabela Leal
 - **LinkedIn**: [Isabela Leal](https://www.linkedin.com/in/isabela-leal)
 - **GitHub**: [isabela-leal](https://github.com/isabela-leal)
 
+## 📄 License
+
+This project is provided for educational and analytical purposes.
+
 ---
 
-*Last Updated: March 16, 2026*
-
-This README serves as a dynamic guide for anyone building a successful YouTube presence in today's digital landscape.
+*Last Updated: 2026-03-16*
