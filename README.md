@@ -119,7 +119,7 @@ The Global YouTube Statistics dataset contains metrics for YouTube channels incl
 For inquiries, insights, or collaboration opportunities:
 
 - **Name**: Isabela Leal
-- **LinkedIn**: [Isabela Leal](https://www.linkedin.com/in/isabela-leal)
+- **LinkedIn**: [Isabela Leal](https://www.linkedin.com/in/isabela-leal-gaviria-6685bb35a/)
 - **GitHub**: [isabela-leal](https://github.com/isabela-leal)
 
 ## 📄 License
